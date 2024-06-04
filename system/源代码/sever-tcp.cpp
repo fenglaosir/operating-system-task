@@ -826,6 +826,8 @@ void scre(char *use,SOCKET cfd)
 
 int main()
 {
+	system("mkdir home");
+	system("mkdir user"); 
 	getdata();
 	scwait();
 }
